@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.login-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #0057ff; 
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.login-button:hover {
+  background-color: #0046d1;
+}
+
+.signup {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+}
+.signup a {
+  color: green; 
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.form {
+  flex: 1;
+  background-color: #D9D9D9;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.form p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.form1 {
+  flex: 1;
+  background-color: #EBEBEB;
+  padding: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.google-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.form2 {
+  text-align: center;
+  margin: 20px 0;
+  position: relative;
+}
+
+
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input[type="password"],
+input[type="firstname"],
+input[type="lastname"],
+input[type="email"]{
+ width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+
+
+
+.remember{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+
+
+.test{
+   margin-left: 30px;
+   font-family:'Times New Roman', Times, serif ;
+   
+}
+
+.test a{
+    text-decoration: none;
+    color: green;
+}
+
+.LogIn p{
+   margin-left: 90px;
+}
+
+.LogIn a{
+    color: green;
+    text-decoration: none;
+}
+
+.s a{
+    color: white;
+    text-decoration: none;
+}

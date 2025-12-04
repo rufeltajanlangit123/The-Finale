@@ -1,0 +1,77 @@
+header{
+    background-color: rgb(238, 237, 237);
+    position: fixed;
+    width: 100%;
+}
+
+.Navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.logo{
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+.navlinks{
+    display: flex;
+    gap: 6rem;
+    list-style: none;
+    margin-right: 150px;
+}
+
+.navlinks a{
+    text-decoration: none;
+    color: black;
+    font-size: larger;
+}
+
+.navlinks a:hover {
+    color: rgb(28, 179, 61);
+}
+
+.menu-toggle{
+    display: none;
+}
+
+.menu-btn{
+    display: none;
+}
+
+.logo img{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 1em;
+}
+
+@media only screen and (max-width: 768px) {
+
+        
+    
+    .navlinks a {
+        display: none;
+    }
+
+    .menu-btn {
+        display: block;
+        margin-left: 170px;
+    }
+
+    .logo {
+        margin-left: 0;
+        
+        
+    }
+    .menu-toggle:checked ~ .navlinks {
+        display: flex;
+    }
+}
+
+
+

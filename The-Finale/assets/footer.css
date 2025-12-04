@@ -1,0 +1,48 @@
+.last{
+    display: flex;
+    
+}
+
+.last h1{
+    margin-left: 200px;
+    margin-top: 50px;
+    font-size: 40px;
+
+}
+
+.last img{
+    height: 300px;
+    width: 700px;
+}
+
+.Footerlast img{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    justify-content: space-around;
+    align-items: end;
+    margin-top: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
+.Footerlast{
+    margin-left: 200px;
+}
+
+.Email{
+margin-top: 30px;
+margin-left: 30px;
+display: flex;
+gap: 1rem;
+}
+
+.Email a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.Email a:hover{
+  color:green ;
+}

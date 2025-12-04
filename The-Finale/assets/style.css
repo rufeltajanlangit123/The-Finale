@@ -1,0 +1,31 @@
+@import "navbar.css";
+@import "main.css";
+@import "card.css";
+@import "footer.css";
+@import "Allbooks.css";
+@import "Login.css";
+@import "form.css";
+@import "Thankyou.css";
+
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+    
+    
+
+
+body, html 
+{
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding: 150px;
+}

@@ -1,0 +1,14 @@
+.Thankyou{
+    background-color: #d9d9d9; 
+      margin-top: 150px;
+      margin-left: 500px;
+      padding: 20px 60px;
+      border-radius: 12px;
+      text-align: center;
+      width: 300px;
+    
+}
+
+.Thankyou h1{
+  padding-right:20px;
+}

@@ -1,0 +1,58 @@
+ .body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f2f2f2;  
+      margin: 0;
+    }
+    .Form {
+      background-color: #d9d9d9; 
+      margin-top: 150px;
+      margin-left: 500px;
+      padding: 40px 30px;
+      border-radius: 12px;
+      text-align: center;
+      width: 300px;
+    }
+    .Form h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+    .Form label {
+      display: block;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #444;
+      text-align: left;
+    }
+    .Form input[type="date"] {
+      width: 100%;
+      padding: 8px 10px;
+      font-size: 16px;
+      border: 1px solid #aaa;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 20px;
+    }
+    .Form button {
+      background-color: #4CAF50; 
+      color: white;
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+    .Form button:hover {
+      background-color: green;
+    }
+
+    .laay a{
+        text-decoration: none;
+        color: white;
+    }
+

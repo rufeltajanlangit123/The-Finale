@@ -1,0 +1,90 @@
+.books{
+    background-color: #D9D9D9;
+    padding: 50px;
+    
+    
+    
+}
+
+
+
+
+
+.card-service{
+    margin: 2em;
+    display: flex;
+    gap: 10rem;
+    justify-content: center;
+    
+}
+
+.crush{
+    align-items: center;
+}
+
+.card {
+    width: 19.6em;
+    border: 1px black solid;
+    border-radius: 2em;
+    box-shadow: 2px black;
+    background-color: white ;
+    padding-bottom: 20px;
+    
+
+    
+}
+
+
+.card img{
+    object-fit: cover;
+    display: flex;
+    margin-left:30px;
+    margin-top: 40px;
+    border-radius: 20px;
+    
+}
+
+.card p{
+    font-size: 20px;
+    
+    margin-left: 40px;
+}
+
+.card h1{
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 22px;
+}
+
+.btn1{
+    margin-left: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: larger;
+    background-color: green;
+    
+}
+
+.btn1:hover{
+    background-color: rgb(35, 16, 85);
+}
+
+.see{
+    text-align: center;
+    font-family: cursive;
+    cursor: pointer;
+    color: black;
+    
+}
+
+
+.see:hover{
+    color: green;
+}
+
+.se a{
+    list-style: none;
+    text-decoration: none;
+}
+
+

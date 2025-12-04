@@ -1,0 +1,161 @@
+#main{
+background-image: url(../images/background.png);
+ height: 100vh;
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+ background-position: center;
+ background-size: cover;
+
+}
+
+.text1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.text1 h1{
+    font-size: 50px;
+}
+
+.text1 p{
+    font-size: larger;
+}
+
+.about-us{
+    margin-top: 350px;
+    padding: 60px 20px;
+    text-align: center;
+    background: white;
+   
+}
+
+.about-us h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.about-us p {
+    margin: 0 auto;
+    font-size: 2rem;
+    line-height: 1.8;
+}
+
+.picture{
+    max-width: 800px;
+    padding: 60px 20px;
+    text-align: center;
+    margin-top: -70px;
+    margin-left: 250px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    #main {
+        background-attachment: scroll;
+    }
+    
+    .picture {
+        margin-left: 0;
+        margin-bottom: 1100px;
+        
+    }
+
+    .picture img {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 50px;
+    }
+
+    .text1 h1 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .text1 p {
+        margin-top: 20px;
+        margin-left: 45px;
+        font-weight: bold;
+        
+    }
+
+    #main {
+        background-attachment: unset;
+    }
+
+    .about-us p{
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    .about-us {
+        margin-top: 100px;
+    }
+
+    
+
+    .card-service{
+    margin: 2em;
+    display: flex;
+    gap: 10rem;
+    display: grid;
+
+    
+}
+  .last h1{
+    padding-right: 50px;
+  }
+ .last img{
+    margin-top: 400px;
+ }
+
+ .logo{
+    margin-left: 100px;
+ }    
+
+ .menu-btn{
+    margin-left: 320px;
+
+ }
+    
+.books{
+ display: flex;
+ flex-direction: column;
+    
+
+    }
+
+    .card img{
+        display: grid;
+        justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+    .card-service {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .books h1 {
+        font-size: 40px;
+    }
+
+    .btn1 {
+        width: 100%;
+    }
+
+    .Email a {
+        font-size: 14px;
+    }
+}
+}
+
+    
